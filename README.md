@@ -4,7 +4,7 @@ Get all comments from Youtube Video via Javascript as Html widget
 ---
 
 How to use
-- clone this repo
+- `git clone https://github.com/angepili/youtube-comments`
 - `npm install`
 - open your browser on http://localhost:1234/
 ---
