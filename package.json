@@ -1,0 +1,22 @@
+{
+  "name": "youtube-comments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "prod": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bulma": "^0.9.0",
+    "styled-reset": "^4.2.2"
+  }
+}
