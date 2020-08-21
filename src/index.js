@@ -18,7 +18,6 @@ const commentTemplate = item => {
     const { textDisplay, authorDisplayName, authorProfileImageUrl, authorChannelUrl, likeCount, publishedAt} = snippet.topLevelComment.snippet;
     const date = new Date(publishedAt);
     let datePublished = `${date.getHours()}:${date.getMinutes()} - ${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`
-    console.log(datePublished);
     return `
         <div class="card" id="card-${id}">
             <div class="card-content">
